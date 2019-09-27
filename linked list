@@ -1,7 +1,7 @@
 #建立節點
 class ListNode:
-  def __init__(self, data):
-    self.data = data
+  def __init__(self, value):
+    self.val = value
     self.next = None
     
 class MyLinkedList:
@@ -39,16 +39,16 @@ class MyLinkedList:
         self.length += 1
 
   def addAtIndex(self, index, val):
-        if self.length < index < -2:
+        if self.length < index < -2:    #輸入位置錯誤
             return
-        elif index == self.length:
+        elif index == self.length:    #加在尾端
             self.addAtTail(val)
             return
-        elif index == 0 or index == -1:
+        elif index == 0 or index == -1:   #加在頂端
             self.addAtHead(val)
             return
         cur = self.head
-        for _ in range(index-1):
+        for i in range(index-1):    #走訪
             cur = cur.next
         tmp = ListNode(val)
         tmp.next = cur.next
@@ -63,7 +63,7 @@ class MyLinkedList:
             self.length -= 1
             return
         cur = self.head
-        for _ in range(index-1):
+        for  in range(index-1):
             cur = cur.next
         if cur.next:
             cur.next = cur.next.next
