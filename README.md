@@ -1,2 +1,3 @@
+# ~The blue place~
 # 我的learning-note
-我所有leet code的練習歷程
+演算法的學習紀錄:
