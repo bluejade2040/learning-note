@@ -1,3 +1,3 @@
-# The blue place
-# 我的learning-note
-演算法的學習紀錄:
+# 演算法的learning-note
+我是藍子軒(Blue)
+# weekly note
