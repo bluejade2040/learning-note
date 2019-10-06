@@ -1,6 +1,6 @@
 # 藍子軒(Blue)的learning-note
 
-# 資料結構
+# Data structure
 。Linkedlist
 。Stack
 。Queue
