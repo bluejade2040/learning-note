@@ -1,6 +1,6 @@
 # 藍子軒(Blue)的learning-note
 
-# Data structure and algorithm
+# Data Structure and Algorithm
 。Linkedlist
 。Stack
 。Queue
