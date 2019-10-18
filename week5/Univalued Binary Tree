@@ -1,0 +1,19 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isUnivalTree(self, root: TreeNode) -> bool:
+        vals = []
+
+        def dfs(node):              #depth first search
+            if node:
+                vals.append(node.val) #將節點值加入list
+                dfs(node.left)        #將左右支線node再放入dfs
+                dfs(node.right)
+
+        dfs(root)
+        return len(set(vals)) == 1    #當長度多於1，代表有相異值
