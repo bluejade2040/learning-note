@@ -134,6 +134,12 @@ list = [-2, 0, 5, 5, 19, -6, 6, 3, 7, 9, 16, 11, 0, -6, -9, 6, 3]
 mergesort(list)
 
 
+與heapsort比較:
+    mergesort的時間複雜度為O(n(log n))
+    mergesort的空間複雜度為O(n)
+    穩定性(stable)較好
+
+
 # 參考資料:
 #     https://kopu.chat/2017/08/10/%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F-merge-sort/
 #     https://youtu.be/EeQ8pwjQxTM
