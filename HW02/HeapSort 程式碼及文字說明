@@ -181,6 +181,12 @@ heapsort(list)
 print(list)
 
 
+與mergesort比較:
+    heapsort的時間複雜度為O(n(log n))
+    heapsort的空間複雜度為O(1)
+    穩定性(stable)較差
+
+
 # 參考資料:
 #     https://www.cc.gatech.edu/classes/cs3158_98_fall/heapsort.html
 #     https://stackoverflow.com/questions/43700267/max-heapify-pseudocode
