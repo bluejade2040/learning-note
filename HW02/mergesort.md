@@ -182,6 +182,8 @@ mergesort(list)
 
     [-9, -6, -6, -2, 0, 0, 3, 3, 5, 5, 6, 6, 7, 9, 11, 16, 19]
 
+流程圖:
+![](https://github.com/bluejade2040/learning-note/blob/master/sort.jpg)
 
 
 
