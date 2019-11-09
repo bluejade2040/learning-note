@@ -240,6 +240,9 @@ print(list)
 
     [0, 1, 3, 6, 7, 8, 9, 10, 13, 14, 15, 18]
     
+流程圖:
+![](https://github.com/bluejade2040/learning-note/blob/master/heapsort.jpg)
+
 
 與MergeSort比較:
     HeapSort的時間複雜度為O(n(logn))
