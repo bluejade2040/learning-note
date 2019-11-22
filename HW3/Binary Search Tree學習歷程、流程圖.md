@@ -603,13 +603,10 @@ root1.PrintTree()
     8
     10
     
-
-
-```python
-
 流程圖:
 ![](https://github.com/bluejade2040/learning-note/blob/master/BST.jpg)
 
+```python
 參考資料:
     https://gist.github.com/jakemmarsh/8273963
     https://youtu.be/7vw2iIdqHlM
