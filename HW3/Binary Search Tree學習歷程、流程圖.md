@@ -607,7 +607,8 @@ root1.PrintTree()
 
 ```python
 
-流程圖:![]("https://github.com/bluejade2040/learning-note/blob/master/BST.jpg")
+流程圖:
+![](https://github.com/bluejade2040/learning-note/blob/master/BST.jpg)
 
 參考資料:
     https://gist.github.com/jakemmarsh/8273963
