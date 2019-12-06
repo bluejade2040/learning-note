@@ -32,6 +32,8 @@ hash("dog")
 
 流程圖:
 
+![](https://github.com/bluejade2040/learning-note/blob/master/hash%20table.jpg)
+
 接下來開始逐步編寫各項功能~~
 
 ![](https://www.cs.wcupa.edu/rkline/assets/img/DS/chaining.gif?1317147325)
