@@ -34,9 +34,11 @@ hash("dog")
 
 ![](https://github.com/bluejade2040/learning-note/blob/master/hash%20table.jpg)
 
-接下來開始逐步編寫各項功能~~
+釐清array、nodes的結構關係:
 
 ![](https://www.cs.wcupa.edu/rkline/assets/img/DS/chaining.gif?1317147325)
+
+接下來開始逐步編寫各項功能~~
 
 ### 編寫add
 
