@@ -21,6 +21,8 @@ DFS(深度優先搜尋):
 
 ### 流程圖
 
+![](https://github.com/bluejade2040/learning-note/blob/master/BFS%E3%80%81DFS.jpg)
+
 ### BFS過程
 
 
