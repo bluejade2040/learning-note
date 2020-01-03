@@ -17,6 +17,8 @@
 
 ### 流程圖
 
+![](https://github.com/bluejade2040/learning-note/blob/master/Dijkstra.jpg)
+
 ### Kruskal
 
 
