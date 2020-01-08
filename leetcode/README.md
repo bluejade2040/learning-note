@@ -5,7 +5,7 @@
 
 - [1. Design Linked List]()
 
-- [2. Min Stack]()
+- [2. Min Stack](https://github.com/bluejade2040/learning-note/blob/master/leetcode/155%23_Min%20Stack_06170217.py)
 
 - [3. Univalued Binary Tree]()
 
