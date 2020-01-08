@@ -9,6 +9,6 @@
 
 - [3. Univalued Binary Tree]()
 
-- [4. Design HashSet]()
+- [4. Design HashSet](https://github.com/bluejade2040/learning-note/blob/master/leetcode/705%23_Design%20HashSet_06170217.py)
 
 - [5. Two Sum](https://github.com/bluejade2040/learning-note/blob/master/leetcode/1%23_Two%20Sum_06170217.py)
