@@ -7,9 +7,9 @@
 
 
 # weekly note
-- [week1]()
-- [week2]()
-- [week3]()
-- [week4]()
-- [week5]()
-- [week6]()
+- [week1](https://github.com/bluejade2040/learning-note/tree/master/week1)
+- [week2](https://github.com/bluejade2040/learning-note/tree/master/week2)
+- [week3](https://github.com/bluejade2040/learning-note/tree/master/week3)
+- [week4](https://github.com/bluejade2040/learning-note/tree/master/week4)
+- [week5](https://github.com/bluejade2040/learning-note/tree/master/week5)
+- [week6](https://github.com/bluejade2040/learning-note/tree/master/week6)
