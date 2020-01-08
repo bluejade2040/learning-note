@@ -1,0 +1,72 @@
+#建立節點
+class ListNode:
+  def __init__(self, value):
+    self.val = value
+    self.next = None
+    
+class MyLinkedList:
+  def __init__(self):
+        self.head = None
+        self.tail = None
+        
+  def get(self, index):
+        if self.length - 1 < index < 0:
+            return -1
+        cur = self.head
+        for i in range(index):
+            cur = cur.next
+        return cur.val
+  def addAtHead(self, val):
+        if self.head is None:   #首項為None
+            tmp = ListNode(val)
+            self.head = tmp   #首項給新值
+        else:   #首項不為None
+            tmp = ListNode(val)
+            tmp.next = self.head    #新值下一項為原本首項
+            self.head = tmp   #新首項
+        self.length += 1
+
+  def addAtTail(self, val):
+        if self.head is None:   #首項為None
+            tmp = ListNode(val)
+            self.head = tmp   #首項給新值
+        else:   #首項不為None
+            cur = self.head
+            while cur.next:
+                cur = cur.next    #前一值變為下一值
+            tmp = ListNode(val)
+            cur.next = tmp
+        self.length += 1
+
+  def addAtIndex(self, index, val):
+        if self.length < index < -2:    #輸入位置錯誤
+            return
+        elif index == self.length:    #加在尾端
+            self.addAtTail(val)
+            return
+        elif index == 0 or index == -1:   #加在頂端
+            self.addAtHead(val)
+            return
+        cur = self.head
+        for i in range(index-1):    #走訪
+            cur = cur.next
+        tmp = ListNode(val)
+        tmp.next = cur.next
+        cur.next = tmp
+        self.length += 1
+
+  def deleteAtIndex(self, index):
+        if self.length - 1 < index < 0:
+            return
+        if index == 0:
+            self.head = self.head.next
+            self.length -= 1
+            return
+        cur = self.head
+        for  in range(index-1):
+            cur = cur.next
+        if cur.next:
+            cur.next = cur.next.next
+        else:
+            cur.next = None
+        self.length -= 1
