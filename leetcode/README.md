@@ -7,7 +7,7 @@
 
 - [2. Min Stack](https://github.com/bluejade2040/learning-note/blob/master/leetcode/155%23_Min%20Stack_06170217.py)
 
-- [3. Univalued Binary Tree]()
+- [3. Univalued Binary Tree](https://github.com/bluejade2040/learning-note/blob/master/leetcode/965%23_Univalued%20Binary%20Tree_06170217.py)
 
 - [4. Design HashSet](https://github.com/bluejade2040/learning-note/blob/master/leetcode/705%23_Design%20HashSet_06170217.py)
 
